@@ -1,0 +1,32 @@
+{
+  "name": "api-studio-nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.15.2",
+    "@nuxt/ui": "^4.8.0",
+    "@pinia/nuxt": "0.11.3",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "~2",
+    "@tauri-apps/plugin-fs": "^2.5.0",
+    "@tauri-apps/plugin-opener": "^2",
+    "nuxt": "^4.4.6",
+    "tailwindcss": "^4.3.0",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "typescript": "^6.0.3"
+  }
+}
