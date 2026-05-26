@@ -5,6 +5,7 @@ import { createWorkspace, openWorkspace } from '../features/workspaces'
 
 export const useWorkspaceStore = defineStore('workspace', () => {
   const currentWorkspace = ref<Workspace | null>(null)
+  const sidebarOpen = ref<boolean>(true)
   const loading = ref(false)
   const error = ref<string | null>(null)
   const booting = ref<boolean>(false)
@@ -94,5 +95,6 @@ export const useWorkspaceStore = defineStore('workspace', () => {
     open,
     close,
     booting,
+    sidebarOpen,
   }
 })
