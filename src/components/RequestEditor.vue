@@ -1,13 +1,5 @@
 <template>
-  <div class="flex h-full flex-col">
-    <div class="border-b border-default p-3">
-      <UInput
-        v-model="request.name"
-        placeholder="Request name"
-        class="max-w-md"
-      />
-    </div>
-
+  <div class="flex h-full flex-col p-3">
     <RequestUrlBar />
 
     <div class="grid min-h-0 flex-1 grid-rows-2">
