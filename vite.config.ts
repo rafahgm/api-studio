@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 // @ts-expect-error process is a nodejs global
+// eslint-disable-next-line node/prefer-global/process
 const host = process.env.TAURI_DEV_HOST
 
 // https://vitejs.dev/config/
