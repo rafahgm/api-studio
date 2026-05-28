@@ -1,3 +1,3 @@
 <template>
-    <h1>Index Page</h1>
+  <h1>Teste</h1>
 </template>
